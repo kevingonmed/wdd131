@@ -1,0 +1,108 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 700px;
+    padding: 20px;
+    line-height: 1.6;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+header h3 {
+    font-size: 20px;
+    color: #006EB6;
+    font-weight: normal;
+    margin-top: 0;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+header h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+main {
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+main p {
+    text-align: center;
+    margin: 0 auto 20px;
+    max-width: 90%;
+
+}
+
+main p:first-of-type {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main p em {
+    font-style: italic;
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+ol.list {
+    counter-reset: item;
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    display: inline-block;
+}
+
+ol.list li {
+    counter-increment: item;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+    text-align: left;
+}
+
+ol.list li:before {
+    content: counter(item) ".";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer img {
+    height: 80px;
+}
+
+hr {
+    margin: 30px auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+    width: 80%;
+}
