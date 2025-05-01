@@ -106,3 +106,8 @@ hr {
     border-top: 1px solid #ccc;
     width: 80%;
 }
+
+.dark {
+    background-color: black;
+    color: white;
+}

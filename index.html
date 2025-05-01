@@ -6,15 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
+    <script src="mission.js" defer></script>
     <title>Document</title>
 </head>
 
 <body>
+
     <header>
         <h1>Mission Statmemnt</h1>
         <h3>Brigham Young University-Idaho</h3>
     </header>
     <main>
+        <select name="theme" id="theme-selector">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </select>
         <p>Brigham Young University-Idaho was founded and is supported and guided
             by The Church of Jesus Christ of Latter-day Saints. Its mission is to
             develop disciples of Jesus Christ who are leaders in their homes, the
@@ -38,7 +44,7 @@
             </li>
         </ol>
         <footer>
-            <img src="mission/byui-logo_blue.webp" alt="BYU-Idaho logo">
+            <img id="logo" src="mission/byui-logo_blue.webp" alt="BYU-Idaho logo">
         </footer>
 </body>
 
