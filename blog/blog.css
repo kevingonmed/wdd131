@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    color: #473144;
+    background-color: #fff;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+/* Skip to Content Accessibility */
+.skiptocontent a {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #AF1B3F;
+    color: white;
+    padding: 0.5em;
+    z-index: 1000;
+}
+
+.skiptocontent a:focus {
+    top: 0;
+}
+
+/* Navigation Styles */
+nav {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-nav {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: end;
+    justify-items: end;
+    list-style: none;
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+.main-nav li {
+    padding: 0 0.5rem;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #AF1B3F;
+}
+
+/* Layout Grid */
+.content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 960px;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Book Article Layout */
+.book {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.book-details {
+    font-size: 0.9rem;
+}
+
+.book-info img {
+    max-width: 100%;
+}
+
+.book-info h2 {
+    font-family: 'Lora', serif;
+    margin: 0.5rem 0;
+}
+
+/* Placeholder for Filters */
+.filters {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
