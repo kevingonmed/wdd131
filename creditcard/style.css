@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    position: relative;
+}
+
+.card {
+    background-color: #dfe3e6;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+    width: 320px;
+}
+
+.total {
+    font-weight: bold;
+}
+
+.chip {
+    background-color: orange;
+    width: 40px;
+    height: 25px;
+    border-radius: 4px;
+    float: right;
+    margin-top: -30px;
+}
+
+label {
+    font-size: 0.75rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.flex-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.form-group {
+    flex: 1 1 45%;
+}
+
+.expiration-fields {
+    display: flex;
+    gap: 0.5rem;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.errorMsg {
+    color: red;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+}
