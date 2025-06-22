@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Recipe Book" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Explore and share your favorite recipes!" />
+    <meta property="og:image" content="images/recipe-book.png" />
+    <meta property="og:url" content="https://yourdomain.com/index.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="stylesheet" href="recipes.css" />
+    <script src="recipes.js" defer></script>
+
+    <title>Recipe Book</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/images/recipe-book.png" alt="logo" />
+        </div>
+        <div class="title">
+            <h1>RecipeBook</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Find a recipe" />
+            <button onclick="searchRecipes()" class="search-button">
+                <img src="images/images/search.svg" alt="Search" />
+            </button>
+
+        </div>
+
+        <div id="recipe-container"></div>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="#"><img src="images/images/instagram_icon.svg" alt="instagram icon" /></a>
+            <a href="#"><img src="images/images/youtube_icon.svg" alt="youtube icon" /></a>
+            <a href="#"><img src="images/images/pinterest_icon.svg" alt="pinterest icon" /></a>
+        </div>
+
+        <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">
+            Recipe icons created by Freepik - Flaticon
+        </a>
+    </footer>
+</body>
+
+</html>
